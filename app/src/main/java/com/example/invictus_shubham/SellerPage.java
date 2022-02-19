@@ -2,6 +2,7 @@ package com.example.invictus_shubham;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +33,8 @@ public class SellerPage extends AppCompatActivity {
                 phoneNo = Float.valueOf(phone_no.getText().toString());
 
                 Toast.makeText(SellerPage.this, "Details Recorded", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(SellerPage.this, ProfilePage.class);
+                startActivity(intent);
             }
         });
     }

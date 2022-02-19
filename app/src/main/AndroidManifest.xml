@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InvictusShubham">
         <activity
+            android:name=".UploadingPhoto"
+            android:exported="false" />
+        <activity
             android:name=".Sem2"
             android:exported="false" />
         <activity
@@ -28,7 +31,7 @@
             android:name=".ChooseBuyerOrSeller"
             android:exported="false" />
         <activity
-            android:name=".ItemPageActivity"
+            android:name=".ProfilePage"
             android:exported="false" />
         <activity
             android:name=".ListingActivity"

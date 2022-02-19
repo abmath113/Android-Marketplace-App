@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 public class ListingActivity extends AppCompatActivity {
 
@@ -33,7 +32,7 @@ public class ListingActivity extends AppCompatActivity {
         adapter.OnRecyclerViewClickListener(new AdapterClassForListing.OnRecyclerViewClickListener() {
             @Override
             public void onItemClick(int position){
-                Intent i = new Intent(ListingActivity.this, ItemPageActivity.class);
+                Intent i = new Intent(ListingActivity.this, ProfilePage.class);
                 startActivity(i);
             }
         });

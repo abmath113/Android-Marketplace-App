@@ -22,7 +22,7 @@ public class ChooseBuyerOrSeller extends AppCompatActivity {
         bBuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(ChooseBuyerOrSeller.this, ChooseBuyerOrSeller.class);
+                Intent i = new Intent(ChooseBuyerOrSeller.this, ListingActivity.class);
                 startActivity(i);
             }
         });
@@ -30,7 +30,7 @@ public class ChooseBuyerOrSeller extends AppCompatActivity {
         bSell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(ChooseBuyerOrSeller.this, ChooseBuyerOrSeller.class);
+                Intent i = new Intent(ChooseBuyerOrSeller.this, SellerPage.class);
                 startActivity(i);
             }
         });
