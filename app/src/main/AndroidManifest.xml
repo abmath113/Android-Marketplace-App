@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InvictusShubham">
         <activity
+            android:name=".Sem2"
+            android:exported="false" />
+        <activity
+            android:name=".Sem1"
+            android:exported="false" />
+        <activity
             android:name=".FilterBranch"
             android:exported="false" />
         <activity
