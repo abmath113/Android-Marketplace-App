@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "796411269392",
+    "firebase_url": "https://supplier-management-syst-82863-default-rtdb.firebaseio.com",
+    "project_id": "supplier-management-syst-82863",
+    "storage_bucket": "supplier-management-syst-82863.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796411269392:android:2b56a6f0b10f6ec2691595",
+        "android_client_info": {
+          "package_name": "com.example.suppliermanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796411269392-2mr030muerb9gu4uu0m7m4k2mh0dop40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHf-2pSzQLpfwkR7lVUJ9XxByfK4o36VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796411269392-2mr030muerb9gu4uu0m7m4k2mh0dop40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
