@@ -13,6 +13,7 @@ public class ListingActivity extends AppCompatActivity {
     String[] books = {"BEE", "Mechanics", "Maths - 1", "Chemistry", "Physics", "C Programming"};
     String[] authors = {"B. R. Patil", "M. D. Dayal", "Kumbhojkar", "Nirali Publications", "Techneo", "Let us C"};
     int[] images = {android.R.drawable.ic_menu_camera, android.R.drawable.ic_menu_camera, android.R.drawable.ic_menu_camera, android.R.drawable.ic_menu_camera, android.R.drawable.ic_menu_camera, android.R.drawable.ic_menu_camera};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

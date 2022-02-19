@@ -11,7 +11,6 @@ public class ProfilePage extends AppCompatActivity {
 
     ImageView bookImage;
     TextView bookName, authorOrPublication, sellerName, sellerContact, cost;
-    String bookName1, authorOrPublication1, sellerName1, sellerContact1, cost1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
