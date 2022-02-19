@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375377656700",
+    "project_id": "invictus-a4b18",
+    "storage_bucket": "invictus-a4b18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375377656700:android:948131b89c8c5ed48e42f9",
+        "android_client_info": {
+          "package_name": "com.example.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375377656700-q7am36fdootp3hqdfev0lg0s2po4e114.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACcAuwHiJ0qxRKR_uywYTv7sBGGXYLpg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375377656700-q7am36fdootp3hqdfev0lg0s2po4e114.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
