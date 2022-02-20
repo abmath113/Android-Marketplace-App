@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7AE898B3"
-    android:backgroundTint="#7AE898B3"
+    android:background="@color/white"
     tools:context=".UploadingPhoto">
 
     <LinearLayout
@@ -37,8 +36,8 @@
 
         <ImageView
             android:id="@+id/UploadedImage"
-            android:layout_width="200dp"
-            android:layout_height="350dp"
+            android:layout_width="300dp"
+            android:layout_height="450dp"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/ic_baseline_image_search_24" />
 
@@ -47,8 +46,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
-            android:layout_marginRight="6dp"
             android:layout_marginTop="20dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"
             android:background="@drawable/btn_design"
             android:foreground="@drawable/btn_design"
             android:text="Select Image" />
@@ -60,7 +60,7 @@
             android:layout_margin="6dp"
             android:background="@drawable/btn_design"
             android:foreground="@drawable/btn_design"
-            android:text="View Page Profile" />
+            android:text="Upload" />
 
     </LinearLayout>
 
