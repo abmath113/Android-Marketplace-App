@@ -36,10 +36,12 @@ public class UploadingPhoto extends AppCompatActivity {
                     if(checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
                     == PackageManager.PERMISSION_DENIED) {
                         //Permission not given. Request for one.
-
+                        String[] permissions = {Manifest.permission.READ_EXTERNAL_STORAGE};
+                        //Pop-up
+                        requestPermissions(permissions, PERMISSION_CODE);
                     }
                     else {
-
+                        //
                     }
                 }
                 else {
