@@ -41,8 +41,7 @@ public class UploadingPhoto extends AppCompatActivity {
             public void onClick(View view) {
                 //Checking Runtime Permission
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
-                            == PackageManager.PERMISSION_DENIED) {
+                    if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_DENIED) {
                         //Permission not given. Request for one.
                         String[] permissions = {Manifest.permission.READ_EXTERNAL_STORAGE};
                         //Pop-up
