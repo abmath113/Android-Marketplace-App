@@ -38,10 +38,10 @@ public class SellerPage extends AppCompatActivity {
                 price = Float.valueOf(Price.getText().toString());
 
                 Toast.makeText(SellerPage.this, "Details Recorded", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(SellerPage.this, ProfilePage.class);
-                intent.putExtra("keyBookName", bookName);
+                Intent intent = new Intent(SellerPage.this, UploadingPhoto.class);
+                /*(intent.putExtra("keyBookName", bookName);
                 intent.putExtra("keyAoP", authorOrPublication);
-                intent.putExtra("keySellerName", sellerName);
+                intent.putExtra("keySellerName", sellerName);*/
                 startActivity(intent);
             }
         });
