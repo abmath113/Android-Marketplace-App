@@ -9,6 +9,7 @@
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/activity_2.xml" value="0.17552083333333332" />
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/activity_buyer_page.xml" value="0.16666666666666666" />
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/activity_choose_buyer_or_seller.xml" value="0.12" />
+        <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/activity_dashboard.xml" value="0.16145833333333334" />
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/activity_filter.xml" value="0.16666666666666666" />
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/activity_filter_branch.xml" value="0.16145833333333334" />
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/activity_filter_semester.xml" value="0.1" />
@@ -28,6 +29,7 @@
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/list_group.xml" value="0.17552083333333332" />
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/list_item.xml" value="0.17552083333333332" />
         <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/listing_layout.xml" value="0.22" />
+        <entry key="..\:/GitHub Desktop/Invictus Hackathon/app/src/main/res/layout/login_layout.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>
